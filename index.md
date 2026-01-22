@@ -1,3 +1,12 @@
+---
+title: Mods
+permalink: /mods/
+layout: single
+---
 
-### 🎥 Videos
-👉 [YouTube Channel](https://www.youtube.com/@_redmas)
+# 📦 Mods
+
+{% for mod in site.mods %}
+### 🔹 [{{ mod.title }}]({{ mod.url }})
+{{ mod.excerpt }}
+{% endfor %}
