@@ -1,8 +1,3 @@
----
-title: Fantasy Reborn HQ
-layout: default
----
-
 # 🌌 No Man’s Sky – Fantasy Reborn HQ
 
 ### *Infinite Worlds Generation & Major Gameplay Overhaul*
