@@ -1,30 +1,40 @@
-# Site settings
-title: Redmas – No Man's Sky Mods
-description: Portfolio of No Man's Sky mods, visuals, gameplay tweaks, and world generation
-url: "https://your-username.github.io"  # Replace with your GitHub Pages URL
-baseurl: "/redmas-nms-mods"           # If repo is github.io/repo-name
+# ----------------------------------
+# Site Settings
+# ----------------------------------
+title: "Redmas – No Man's Sky Mods"
+description: "Portfolio of No Man's Sky mods, visual enhancements, gameplay tweaks, and world generation"
+url: "https://your-username.github.io"      # Replace with your GitHub Pages URL
+baseurl: "/redmas-nms-mods"                 # Replace if repo is a subpath
 lang: en
-theme: jekyll-theme-time-machine      # The GitHub Pages Time Machine theme
+theme: jekyll-theme-time-machine
 markdown: kramdown
 
-# Build settings
+# ----------------------------------
+# Author Info
+# ----------------------------------
+author:
+  name: "Redmas"
+  email: "your-email@example.com"
+
+# ----------------------------------
+# Build & Plugins
+# ----------------------------------
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Author
-author:
-  name: Redmas
-  email: your-email@example.com
-
-# Defaults for pages / mods
+# ----------------------------------
+# Defaults
+# ----------------------------------
 defaults:
+  # Pages (home, about, mods index)
   - scope:
       path: ""
       type: "pages"
     values:
       layout: default
       author_profile: false
+  # Mods pages (_mods folder)
   - scope:
       path: "_mods"
       type: "mods"
@@ -32,3 +42,40 @@ defaults:
       layout: single
       author_profile: false
       comments: false
+      show_date: false
+
+# ----------------------------------
+# Collections
+# ----------------------------------
+collections:
+  mods:
+    output: true
+    permalink: /mods/:name/
+
+# ----------------------------------
+# Gallery / Slideshow (Minimal setup)
+# ----------------------------------
+gallery:
+  style: slideshow
+  autoplay: true
+  interval: 3000  # milliseconds between slides
+
+# ----------------------------------
+# Navigation
+# ----------------------------------
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Mods"
+    url: "/mods/"
+  - title: "Changelog"
+    url: "/changelog/"
+  - title: "About"
+    url: "/about/"
+
+# ----------------------------------
+# Social / Community Links
+# ----------------------------------
+social:
+  discord: "https://TON-LIEN-DISCORD"
+  youtube: "https://www.youtube.com/@_redmas"
