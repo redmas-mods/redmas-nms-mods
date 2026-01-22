@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import mods from "./data/mods";
 import ModCard from "./components/ModCard";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavBar";
 
 function App() {
   useEffect(() => {
