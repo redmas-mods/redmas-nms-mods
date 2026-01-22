@@ -72,7 +72,7 @@ title: Redmas NMS Mods
 				</div>
 			</div>
 		</section>
-
+[Fantasy Reborn HQ](mod1.md)
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
