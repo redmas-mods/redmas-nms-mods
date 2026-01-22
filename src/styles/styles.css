@@ -1,0 +1,36 @@
+body {
+  background: #f8f9fb;
+}
+
+.mod-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,.08);
+  transition: all .3s ease;
+  height: 100%;
+}
+
+.mod-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0,0,0,.15);
+}
+
+.mod-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.mod-content {
+  padding: 20px;
+}
+
+.mod-content h5 {
+  font-weight: 600;
+}
+
+.mod-content p {
+  color: #6c757d;
+  font-size: 0.95rem;
+}
