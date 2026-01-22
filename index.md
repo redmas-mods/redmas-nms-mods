@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
   <head>
   	<title>Redmas Mods download hub</title>
