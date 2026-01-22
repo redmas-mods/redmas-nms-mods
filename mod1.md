@@ -1,3 +1,6 @@
+---
+title: Your Title
+---
 # 🌌 No Man’s Sky – Fantasy Reborn HQ
 
 ### *Infinite Worlds Generation & Major Gameplay Overhaul*
